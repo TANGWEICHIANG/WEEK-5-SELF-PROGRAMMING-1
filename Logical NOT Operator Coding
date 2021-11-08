@@ -1,0 +1,51 @@
+package selfProgramming;
+
+public class logicalNOToperator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x = 40, y = 60, z = 80;
+		
+		if (!(x<y) && (y<z)) //notTrue and true statement
+			System.out.println("True");
+		else
+			System.out.println("False");
+		
+		if (!(x<y) && (y>z)) //notTrue and false statement
+			System.out.println("True");
+		else
+			System.out.println("False");
+		
+		if (!(x>y) && (y>z)) //notFalse and false statement
+			System.out.println("True");
+		else
+			System.out.println("False");
+		
+		if ((x>y) && (y<z)) //notFalse and true statement
+			System.out.println("True");
+		else
+			System.out.println("False");
+		
+		if (!(x<y) && !(y<z)) //notTrue and notTrue statement
+			System.out.println("True");
+		else
+			System.out.println("False");
+		
+		if (!(x<y) && !(y>z)) //notTrue and notFalse statement
+			System.out.println("True");
+		else
+			System.out.println("False");
+		
+		if (!(x>y) && !(y>z)) //notFalse and notFalse statement
+			System.out.println("True");
+		else
+			System.out.println("False");
+		
+		/*! NOT operator will reverse the original meaning of statement
+		 * For example: if you put ! in front of a true statement,
+		 * 				the statement will be reversed to false;
+		 * 				same goes to false statement will be reversed to true statement.
+		*/
+	}
+
+}
