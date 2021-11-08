@@ -1,0 +1,27 @@
+package selfProgramming;
+
+public class logicalANDoperator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x = 40, y = 60, z = 80;
+		
+		if ((x<y) && (y<z)) //true-true statement
+			System.out.println("True");
+		else
+			System.out.println("False");
+		
+		if ((x<y) && (y>z)) //true-false statement
+			System.out.println("True");
+		else
+			System.out.println("False");
+		
+		if ((x>y) && (y>z)) //false-false statement
+			System.out.println("True");
+		else
+			System.out.println("False");
+		
+		//&& Operator will be true only if both statement are true.
+	}
+
+}
