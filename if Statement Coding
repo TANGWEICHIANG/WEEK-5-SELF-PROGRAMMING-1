@@ -1,0 +1,36 @@
+package selfProgramming;
+
+public class ifStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 20;
+		int b = 25;
+		int c = 30;
+		int d = 35;
+		int e = 40;
+		boolean AA = true;
+		boolean BB= false;
+		
+		if (a==20)
+			System.out.println("Statement is true.");
+		
+		if (b!=20)
+			System.out.println("Statement is true");
+		
+		if ((a<b) && (e>d))
+			System.out.println("Statement is true.");
+		
+		if (c==25) 
+			System.out.println("Statement is true");
+		else 
+			System.out.println("Statement is false");
+		
+		if (d<e)
+			System.out.println("Statement is " +BB);
+		else
+			System.out.println("Statement is " +AA);
+		
+	}
+
+}
