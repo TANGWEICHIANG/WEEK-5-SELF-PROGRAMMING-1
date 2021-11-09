@@ -1,0 +1,34 @@
+package selfProgramming;
+
+public class nestedIfStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int testscore2 = 66;
+		char grade1 = 0;
+		
+		if ((testscore2 >= 90) && (testscore2 <=100))
+        {
+			grade1 = 'A';
+        }
+        if ((testscore2 >= 80) && (testscore2 <= 89))
+        {
+			grade1 = 'B';
+        }
+        if ((testscore2 >= 70) && (testscore2 <= 79))
+        {
+			grade1 = 'C';
+        }
+        if ((testscore2 >= 60) && (testscore2 <= 69))
+        {
+			grade1 = 'D';
+        }
+        if ((testscore2 >= 0) && (testscore2 <= 59))
+        {
+			grade1 = 'F';
+        }
+        
+        System.out.println("Grade = " + grade1);
+	}
+
+}
