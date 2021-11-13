@@ -1,0 +1,47 @@
+package selfProgramming;
+
+public class switchNoBreak {
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char ch='b';
+		int i=2;
+	      switch(i)
+	      {
+		 case 1:
+		   System.out.println("CaseA ");
+		 
+		 case 2:
+		   System.out.println("CaseB ");
+		   
+		 case 3:
+		   System.out.println("CaseC ");
+		
+		 case 4:
+	           System.out.println("CaseD ");
+	      
+		 default:
+		   System.out.println("Default ");
+	      }
+	      
+	      switch(ch)
+	      {
+		 case 'd':
+		   System.out.println("Case1 ");
+		  
+		 case 'b':
+		   System.out.println("\nCase2 ");
+		   
+		 case 'x':
+		   System.out.println("Case3 ");
+		  
+		 case 'y':
+	           System.out.println("Case4 ");
+	          
+		 default:
+		   System.out.println("Default ");
+	      }
+	}
+
+}
